@@ -2,6 +2,7 @@ import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
 import { ValentineBanner } from "@/components/valentine-banner"
 import { AboutSection } from "@/components/about-section"
+import { MenuSection } from "@/components/menu-section"
 import { GallerySection } from "@/components/gallery-section"
 import { CateringSection } from "@/components/catering-section"
 import { ReservationsSection } from "@/components/reservations-section"
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <ValentineBanner />
       <AboutSection />
+      <MenuSection />
       <GallerySection />
       <CateringSection />
       <ReservationsSection />
